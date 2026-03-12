@@ -20,3 +20,11 @@ Once finished you can click the red button to start the tournament. You can now 
 ![image2](image2.png)
 
 During the first round only you can add late joiners. They will receive a BYE (half point without playing) for the first round. 
+
+# Tests
+
+The main logic is implemented in JavaScript in the file `swiss64.js`. The code is unit tested using Jest. The tests are in the file `swiss64.test.js`. Apart for standard unit tests, there is one test that I call "stochastic". It generates 1000 random tournaments and after each round asserts the pairings meed the necessary conditions of a swiss tournament. This is not a guarantee of course, but gives strong confidence the code works correctly.
+
+# How this software was written
+
+This little tool was vibe-coded as a fun experiment what can be done in one evening using the latest (as of March 2026) coding agents. I had to guide the agent a bit. If you'd like to learn more how exactly I did it, I will post a video on my YouTube channel.
