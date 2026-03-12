@@ -13,10 +13,10 @@ The app is a stand alone HTML page (with a JavaScript module in a separate file)
 
 Upon opening you will be asked to enter the players for the tournament. Add them all with their names and ratings. You can add more by clicking the `+` button.
 
-<<Image1>>
+![image1](image1.png)
 
 Once finished you can click the red button to start the tournament. You can now click on the result for each game. Once all results have been entered, you can generate the pairings for the next round. Yes, it is that simple! 
 
-<<Image2>>
+![image2](image2.png)
 
 During the first round only you can add late joiners. They will receive a BYE (half point without playing) for the first round. 
