@@ -9,6 +9,15 @@ The goal of the app is very simple: add players (initial setup), then generate p
 
 The app is a stand alone HTML page (with a JavaScript module in a separate file). You don't need to host it anywhere. Just open the `index.html` file in any browser that supports JavaScript (pretty much any modern browser).
 
+# Installation
+
+Simply download the files:
+- `index.html`
+- `swiss64.js`
+
+And make sure they are in the same folder. Double click or tap on the `index.html` so that it opens in your web browser.
+
+
 # How to use this app
 
 Upon opening you will be asked to enter the players for the tournament. Add them all with their names and ratings. You can add more by clicking the `+` button.
